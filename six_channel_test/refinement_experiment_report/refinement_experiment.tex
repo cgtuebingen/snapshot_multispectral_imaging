@@ -1,0 +1,25 @@
+\documentclass[12pt]{article}
+\title{Experiment of Refining Six Channel Reconstruction}
+\begin{document}
+\maketitle
+\section{Introduction}
+In this document, I will record the experiment procedure of refining the six channel single shot multispectral reconstruction.
+\section{Reconstruction of simulation}
+The results from simulated snapshots show significant color shift due to false first channel reconstruction. The reconstruction is built on simulated ring PSFs. The PSFs is $21\times 21$ and the ring width is one pixel. One hypothesis of the source of error is that the over-simplified rings would mislead the algorithm. Another hypothesis is that the existance of central peak, which appears in the imaging setup, benefits the restoration of sharp images. In this experiment, I would like to test the source of error. 
+\subsection{Experiment procedure}
+\subsubsection{Ring PSFs wider than single pixel}
+\begin{itemize}
+\item Design ring PSFs of larger dimension, for example $81\times 81$, both single pixel and wider
+\item Pad image edges
+\item Reconstruct results from single pixel ring PSFs
+\item Reconstruct results from wider ring PSFs 
+\item Compare
+\end{itemize}
+\subsubsection{Ring PSFs with central peak}
+\begin{itemize}
+\item Design ring PSFs with central peak
+\item Reconstruct results from PSFs with central peaks
+\item Reconstruct results from PSFs without central peaks (if data lost)
+\end{itemize}
+\section{Reconstruction of real-world scene}
+\end{document}
