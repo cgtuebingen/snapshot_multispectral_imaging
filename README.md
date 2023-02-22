@@ -3,7 +3,7 @@
 We present a snapshot multispectral imaging technique with a computational camera and a corresponding image restoration algorithm. The main characteristics are:
 (1) transferring spectral information to the spatial domain by engineering user-defined PSFs; (2) measuring spectral images by computationally inverting the image formation. The design of our computational camera is based on a phase-coded aperture technique to generate spatial and spectral variant PSFs. The corresponding algorithm is designed by adapting single-channel and cross-channel priors. We show experimentally the viability of our technique: it reconstructs high-resolution multispectral images from a snapshot. We further validate that the role of PSF design is critical.
 
-This repository contains the reconstruction MATLAB code from the encoded image to the spectral images. 
+This repository contains the reconstruction MATLAB code from the encoded image to the spectral images. Please start from the [six channel reconstruction](https://github.com/cgtuebingen/snapshot_multispectral_imaging/blob/main/six_channel_test/test_real_psf_real_image_crop.m).
 
 <img src="https://user-images.githubusercontent.com/7547278/220628159-9714576a-2907-454a-91e5-536fd6e277ab.png" width="500"> <img src="https://user-images.githubusercontent.com/7547278/220628543-14f17c15-ae93-4abf-b630-f2e99299c2ce.png" width="100"> <img src="https://user-images.githubusercontent.com/7547278/220628826-728d9194-0a37-4259-a65f-29a4e7c61661.png" width="300"> 
 <p align="center">
